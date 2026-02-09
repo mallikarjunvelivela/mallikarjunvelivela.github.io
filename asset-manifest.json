@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fullstack-frontend/static/css/main.6a0eab6c.css",
-    "main.js": "/fullstack-frontend/static/js/main.8d37606d.js",
+    "main.js": "/fullstack-frontend/static/js/main.b9b2eb9e.js",
     "static/js/453.0a425f86.chunk.js": "/fullstack-frontend/static/js/453.0a425f86.chunk.js",
     "index.html": "/fullstack-frontend/index.html",
     "main.6a0eab6c.css.map": "/fullstack-frontend/static/css/main.6a0eab6c.css.map",
-    "main.8d37606d.js.map": "/fullstack-frontend/static/js/main.8d37606d.js.map",
+    "main.b9b2eb9e.js.map": "/fullstack-frontend/static/js/main.b9b2eb9e.js.map",
     "453.0a425f86.chunk.js.map": "/fullstack-frontend/static/js/453.0a425f86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a0eab6c.css",
-    "static/js/main.8d37606d.js"
+    "static/js/main.b9b2eb9e.js"
   ]
 }

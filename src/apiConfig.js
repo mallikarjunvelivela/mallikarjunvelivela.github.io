@@ -1,5 +1,5 @@
 const getApiBaseUrl = () => {
-  if (process.env.NODE_ENV === 'production') {
+  if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
     // In a production environment (like when deployed), use the live backend URL.
     return 'https://fullstack-backend-b271.onrender.com';
   } else {

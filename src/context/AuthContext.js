@@ -38,14 +38,14 @@ export const AuthProvider = ({ children }) => {
 
     useEffect(() => {
         const fetchWebsiteData = async () => {
-          try {
-              // Using /websites/1 as it is more conventional for REST APIs
-              const result = await axios.get('/website/1');
-              setWebsite(result.data);
-          } catch (error) {
-              console.error("Could not fetch website data", error);
-              setWebsite({ name: "Tempest" }); // Fallback name
-          }
+            try {
+                // Using /websites/1 as it is more conventional for REST APIs
+                const result = await axios.get('/website/1');
+                setWebsite(result.data);
+            } catch (error) {
+                console.error("Could not fetch website data", error);
+                setWebsite({ name: "Tempest" }); // Fallback name
+            }
         };
         fetchWebsiteData();
     }, []);
@@ -77,6 +77,7 @@ export const AuthProvider = ({ children }) => {
         idleTimerRef.current = setTimeout(() => {
             setIsIdle(true);
         }, IDLE_TIMEOUT);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     useEffect(() => {

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fullstack-frontend/static/css/main.bc5c8a01.css",
-    "main.js": "/fullstack-frontend/static/js/main.786cb099.js",
-    "static/js/453.0a425f86.chunk.js": "/fullstack-frontend/static/js/453.0a425f86.chunk.js",
-    "index.html": "/fullstack-frontend/index.html",
-    "main.bc5c8a01.css.map": "/fullstack-frontend/static/css/main.bc5c8a01.css.map",
-    "main.786cb099.js.map": "/fullstack-frontend/static/js/main.786cb099.js.map",
-    "453.0a425f86.chunk.js.map": "/fullstack-frontend/static/js/453.0a425f86.chunk.js.map"
+    "main.css": "/static/css/main.bc5c8a01.css",
+    "main.js": "/static/js/main.6588229a.js",
+    "static/js/453.0a425f86.chunk.js": "/static/js/453.0a425f86.chunk.js",
+    "index.html": "/index.html",
+    "main.bc5c8a01.css.map": "/static/css/main.bc5c8a01.css.map",
+    "main.6588229a.js.map": "/static/js/main.6588229a.js.map",
+    "453.0a425f86.chunk.js.map": "/static/js/453.0a425f86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc5c8a01.css",
-    "static/js/main.786cb099.js"
+    "static/js/main.6588229a.js"
   ]
 }

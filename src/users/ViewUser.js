@@ -16,6 +16,7 @@ export default function ViewUser() {
 
     useEffect(() => {
         loadUser();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const loadUser = async () => {
@@ -26,9 +27,9 @@ export default function ViewUser() {
             console.error("Error loading user:", error);
         }
     }
-    
+
     return (
-       <div className='Container'>
+        <div className='Container'>
             <div className='row'>
                 <div className='col-md-6 offset-md-3 border rounded p-4 mt-2 shadow'>
                     <div className='card'>

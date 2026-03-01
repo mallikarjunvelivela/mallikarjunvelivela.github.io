@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import axios from 'axios';
 import './GlobalLoader.css';
 
 const GlobalLoader = () => {
@@ -10,6 +11,19 @@ const GlobalLoader = () => {
     useEffect(() => {
         setIsLoading(false);
     }, [location]);
+
+    useEffect(() => {
+        const interceptor = axios.interceptors.response.use(
+            (response) => response,
+            (error) => {
+                setIsLoading(false);
+                return Promise.reject(error);
+            }
+        );
+        return () => {
+            axios.interceptors.response.eject(interceptor);
+        };
+    }, []);
 
     useEffect(() => {
         const handleGlobalClick = (e) => {
